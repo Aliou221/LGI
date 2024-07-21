@@ -1,0 +1,54 @@
+aide moi a realiser mon site vtrine pour notre fliere Licence Informatique qui est a l'universite iba der thiam de thies. Je compte cree un site pour notre fliere mais uniqement pour la licence 1 et celle de la licence deux en ajotan. dont les parties que je veux disposer sont la partie ou je doit mettre les docment des cours premiere semestre (en l1 et a part et celui de la l2 ) en plus la partie pour les document du second semestre en plus la partie pour les document des TD et une partie pour les quizz en Algorithme , langage c , Html , CSS , Js et celui de JAVA et enfin une partie pour me contacter en de besoin
+
+
+
+
+Découvrez la filière Licence Informatique à l'Université Iba Der Thiam de Thiès.
+
+
+Licence 1 et Licence 2
+
+Licence 1
+
+La Licence 1 vous offre une introduction solide aux concepts fondamentaux de l'informatique. Vous apprendrez les bases de la programmation, les systèmes d'exploitation, les réseaux et la sécurité informatique.
+
+Licence 2
+
+La Licence 2 approfondit vos connaissances en informatique. Vous pourrez vous spécialiser dans des domaines tels que le développement web, la science des données, l'intelligence artificielle ou la cybersécurité.
+
+
+
+
+
+
+
+
+
+Testez vos connaissances avec nos quizz en ligne
+
+Nos quizz en ligne vous permettent d'évaluer et de développer vos compétences dans les domaines clés de l'informatique : algorithmes, programmation en C, HTML, CSS, JavaScript et Java.
+
+
+
+algo:
+	Mettez à l'épreuve votre maîtrise des concepts fondamentaux de l'algorithmique : structures de contrôle, complexité, etc.
+
+c:
+Évaluez vos compétences en programmation en langage C : syntaxe, structures de données, gestion de la mémoire, etc.
+
+html:
+Testez votre capacité à créer des pages web structurées et sémantiques à l'aide du langage HTML.
+css:
+Validez votre maîtrise de la mise en forme et du style des pages web avec les feuilles de style CSS.
+js:
+Évaluez vos compétences en programmation web dynamique avec le langage JavaScript.
+
+java:
+
+Testez vos connaissances en programmation orientée objet avec le langage Java. 
+
+
+
+contact;
+
+Pour toute question ou demande d'information, n'hésitez pas à nous contacter via l'adresse mail [email protected] ou le numéro de téléphone 000 000 00 00.
