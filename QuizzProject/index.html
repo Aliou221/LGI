@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+    <title>Licence Informatique</title>
+</head>
+<body>
+    
+    <header>
+       <div class="mynav">
+            <h1>Lgi Familly</h1>
+            <nav class="navbar">
+                <a href="#" class="active">Accueil</a>
+                <!-- <a href="#">Docments de Cours</a> -->
+                <a href="#Documents">Docments</a>
+                <a href="#">Quiz</a>
+                <a href="#">Contact</a>
+            </nav>
+       </div>        
+    </header>
+
+    <section class="section-bienvenue">
+        <h1 class="logo1">Bienvenue</h1>
+        <p>
+            Découvrez la filière Licence Informatique à l'Université Iba Der Thiam de Thiès.
+        </p>        
+
+        <a href="javascript:void(0)">Decouvrir plus</a>
+    </section>
+
+    <section class="apropos pad20" >
+        <h2>Licence Informatique</h2>
+        <p id="description"></p>
+
+        <div class="details">
+           <div class="info w40">
+                <div class="flex-info">
+                    <h2>Domaine :</h2>
+                    <p>Sciences et Technologies </p>
+                </div>
+                <div class="flex-info">
+                    <h2>Niveau :</h2>
+                    <p>Licence </p>
+                </div>
+                <div class="flex-info">
+                    <h2>Mention :</h2>
+                    <p>Informatique</p>
+                </div>
+                <div class="flex-info">
+                    <h2>Spécialité (options) :</h2>
+                    <p>Génie Logiciel ou Réseaux et Télécommunications</p>
+                </div>
+           </div>
+
+           <div class="object w50">
+                <div class="mybtn">
+                    <button onclick="onglet(0)" class="activate">Présentention Générale</button>
+                    <button onclick="onglet(1)">Admission</button>
+                    <button onclick="onglet(2)">Débouchés</button>
+                </div>
+
+                <div class="absolute-option">
+                    <div class="myOnglet block">
+                        <h2>Objectifs :</h2>
+                        <p>La licence en Informatique a pour objectif général de former des techniciens supérieurs en informatique.</p>
+                        <p>Plus spécifiquement, il s’agit de former :</p>
+                        <ul>
+                            <li>Des techniciens supérieurs en réseau et télécom</li>
+                            <li>Des techniciens supérieurs en génie logiciel</li>
+                        </ul>
+
+                        <p>Elle a ainsi pour vocation de   donner aux étudiants une connaissance théorique, technique et pratique du monde de l’informatique et de leur fournir une ouverture sur les évolutions technologiques.</p>
+
+                        <h2>Compétences :</h2>
+
+                        <p>A l’issue de leur formation, les étudiants seront capables de :</p>
+
+                        <ul>
+                            <li>Mettre en place, administrer et gérer une infrastructure réseau
+                                sécurisée ;</li>
+                            <li>Mettre en place, administrer et gérer les services courants des réseaux
+                                locaux ;</li>
+                            <li>Assister un projet de mise en place d’infrastructures réseaux
+                                informatiques;</li>
+                            <li> Assurer le support aux utilisateurs et la maintenance du parc
+                                informatique.</li>
+                            <li>Assister à la réalisation d’applications informatiques ;</li>
+                            <li>Assister à la réalisation de systèmes d’information ;</li>
+                            <li>Développer des applications web.</li>
+                        </ul>
+                    </div>
+
+                    <div class="myOnglet">
+                        <h2>Conditions d'admission :</h2>
+
+                        <div class="licence">
+                            <h3>En Licence 1:</h3>
+                            <p>Être orienté par CAMPUSEN pour les nouveaux bacheliers.</p>
+                        </div>
+                        <div class="licence">
+                            <h3>En Licence 2 & 3:</h3>
+                            <p>Par sélection de dossier et sous réserve de validation des niveaux inférieurs par l’équipe pédagogique.</p>
+                        </div>
+
+                       
+                    </div>
+                    <div class="myOnglet">
+                        <h2>Débouchés :</h2>
+                        
+                        <p>Les principaux métiers visés sont ceux liés à la programmation des systèmes, le développement logiciel et de services orientés web, la gestion des bases de données, la conception et la planification des réseaux informatiques, ainsi que la sécurité des réseaux informatiques.</p>
+                        
+                        <p>Ainsi, à l'issue de leur formation, les étudiants seront opérationnels et ils pourront entrer dans la vie active comme :</p>
+                        
+                        <h3><span class="color-option">Option </span>:  Réseaux et télécoms</h3>
+                        <ul>
+                            <li>Technicien en sécurité informatique;</li>
+                            <li>Technicien en maintenance informatique;</li>
+                            <li>Administrateur Réseaux et Systèmes;</li>
+                            <li>Technicien Support.</li>
+                            <li>assistant du chef de projet informatique dans les grandes organisations ou sociétés en informatique;</li>
+                            <li>Technico-commercial;</li>
+                        </ul>
+
+                        <h3><span class="color-option">Option </span>: Génie logiciel</h3>
+
+                        <ul>
+                            <li>Développeur (analyste-programmeur / concepteur / responsable d'études);</li>
+                            <li>Analyste d’exploitation ;</li>
+                            <li>Concepteur de système d’information</li>
+                            <li>Web designer;</li>
+                            <li>Assistant du chef de projet informatique dans les grandes organisations ou sociétés en informatique;</li>
+                            <li>Administrateur de base de données;</li>
+                            <li>Administrateur systèmes;</li>
+                            <li>Technico-commercial;</li>
+                        </ul>
+
+                        <p>A l’issue de la formation, les étudiants pourront également poursuivre des études en Master de spécialité Informatique ou Réseaux & Télécommunications.</p>
+
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="section-documents pad20" id="Documents">
+        <h2>Documents</h2>
+
+        <div class="mesdocs">
+            <div class="cours cours-1">
+                <div class="img">
+                    <img src="img/codingImg.jpg" alt="cours1">
+                </div>
+
+                <div class="title-cours">
+                    <h3>Informatique</h3>
+                  <div class="child">
+                    <a href="javascript:void(0)" class="child-1">Cours</a>
+                    <a href="javascript:void(0)" class="child-2">TD</a>
+                  </div>
+                </div>
+                
+            </div>
+            <div class="cours cours-2">
+                <div class="img">
+                    <img src="img/crayon.jpg" alt="cours1">
+                </div>
+
+                <div class="title-cours">
+                    <h3>Mathematique</h3>
+                    <div class="child">
+                        <a href="javascript:void(0)" class="child-1">Cours</a>
+                        <a href="javascript:void(0)" class="child-2">TD</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cours cours-3">
+                <div class="img">
+                    <img src="img/logo.webp" alt="cours1">
+                </div>
+
+                <div class="title-cours">
+                    <h3>Physique</h3>
+                    <div class="child">
+                        <a href="javascript:void(0)" class="child-1">Cours</a>
+                        <a href="javascript:void(0)" class="child-2">TD</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cours cours-4">
+                <div class="img">
+                    <img src="img/livre.jpg" alt="cours1">
+                </div>
+
+                <div class="title-cours">
+                    <h3>Anglais & Rd</h3>
+                    <div class="child">
+                        <a href="javascript:void(0)" class="child-1">Cours</a>
+                        <a href="javascript:void(0)" class="child-2">TD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="section-quiz pad20">
+        <h2>Quiz Informatique</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione accusantium amet totam rem commodi quo eveniet quis, labore aspernatur tempora atque quos fuga aut doloribus neque corrupti illum provident natus!</p>
+        <div class="mesDifQuiz">
+            <div class="mesQuiz Algo">
+                <img src="img/conding-1.jpg" alt="">
+                <a href="javascript:void(0)">algorithme</a>
+            </div>
+            <div class="mesQuiz Langage-c">
+                <img src="img/womanCoding.jpg" alt="">
+                 <a href="javascript:void(0)">Langage C</a>
+            </div>
+            <div class="mesQuiz Html">
+                <img src="img/html.jpg" alt="">
+                <a href="javascript:void(0)">Html</a>
+            </div>
+            <div class="mesQuiz CSS">
+                <img src="img/CSS-JS.webp" alt="">
+                <a href="javascript:void(0)">css</a>
+            </div>
+            <div class="mesQuiz js">
+                <img src="img/personne.jpg" alt="">
+                <a href="javascript:void(0)">javascript</a>
+            </div>
+            <div class="mesQuiz Java">
+                <img src="img/pen-phone.jpg" alt="">
+                <a href="javascript:void(0)">java</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
+
+
+
